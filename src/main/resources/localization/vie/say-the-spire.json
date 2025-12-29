@@ -1,0 +1,357 @@
+{
+  "buffers": {
+    "blight": {
+      "localizedName": "tai ương",
+      "noObj": "Không có tai ương; hãy báo cho nhà phát triển mod."
+    },
+    "card": {
+      "faceDown": "lá bài úp",
+      "localizedName": "lá bài hiện tại",
+      "localizedNameUpgraded": "xem trước nâng cấp",
+      "noFurtherUpgrade": "Lá bài này không thể nâng cấp thêm.",
+      "noObj": "Không có lá bài; hãy báo cho nhà phát triển mod.",
+      "content": {
+        "cost": "{cost} năng lượng",
+        "typeAndRarity": "loại {type}, độ hiếm {rarity}",
+        "unknownKeyword": "Phát hiện từ khóa lạ {unknownKeyword}; hãy báo cho nhà phát triển mod."
+      }
+    },
+    "event": {
+      "localizedName": "sự kiện"
+    },
+    "leaderboard": {
+      "localizedName": "bảng xếp hạng",
+      "content": {
+        "scoreEntry": "{rank}: {name}, điểm {score}",
+        "timeEntry": "{rank}: {name}, thời gian {date}"
+      }
+    },
+    "monster": {
+      "localizedName": "quái vật",
+      "noObj": "Không có quái vật; hãy báo cho nhà phát triển mod.",
+      "content": {
+        "hp": "{hp}/{hpMax} Sinh lực",
+        "block": "{block} giáp"
+      }
+    },
+    "orb": {
+      "localizedName": "ngọc",
+      "noObj": "Không có ngọc; hãy báo cho nhà phát triển mod."
+    },
+    "player": {
+      "localizedName": "người chơi",
+      "noObj": "Không tìm thấy người chơi; hãy báo cho nhà phát triển mod.",
+      "content": {
+        "hp": "{hp}/{hpMax} Sinh lực",
+        "energy": "{energy} năng lượng",
+        "block": "{block} giáp",
+        "gold": "{gold} vàng"
+      }
+    },
+    "potion": {
+      "localizedName": "dược",
+      "noObj": "Không có dược; hãy báo cho nhà phát triển mod.",
+      "content": {
+        "nameAndRarity": "{name}, độ hiếm {rarity}"
+      }
+    },
+    "relic": {
+      "localizedName": "Cổ vật",
+      "noObj": "Không có Cổ vật; hãy báo cho nhà phát triển mod.",
+      "content": {
+        "nameAndRarity": "{name}, độ hiếm {rarity}",
+        "counter": "{counter} bộ đếm"
+      }
+    }
+  },
+  "errors": {
+    "not in combat": "Hiện không trong trận chiến.",
+    "not in run": "Hiện không trong lượt chơi.",
+    "unknownGremlinMatchCard": "Lỗi: Không xác định được thẻ bài trò chơi tìm cặp Gremlin, báo cho nhà phát triển mod."
+  },
+  "events": {
+    "combatCardText": {
+      "addedToDiscard": "đã thêm {target} vào chồng bài bỏ",
+      "addedToDraw": "đã thêm {target} vào chồng bài rút",
+      "addedToHand": "đã thêm {target} vào tay",
+      "discardShuffledIntoDraw": "đã trộn chồng bài bỏ vào chồng bài rút",
+      "exhausted": "{target} bị đốt"
+    },
+    "combatMonster": {
+      "defeated": "đã hạ gục {target}"
+    },
+    "combatOrb": {
+      "channel": "{target} được nạp vào ô {slot}",
+      "evoke": "{target} tại ô {slot} được xả",
+      "unknown": "Hành động ngọc không xác định cho {target}"
+    },
+    "dialogue": {
+      "text": "{source} {dialogueType}: {message}"
+    },
+    "gainBlock": {
+      "text": "{target} +{amount} giáp"
+    },
+    "misc": {
+      "cardRemovedFromDeck": "đã xóa {target} khỏi bộ bài",
+      "cardShownBriefly": "{target} hiện ra thoáng qua"
+    },
+    "obtain": {
+      "cardAddedToDeck": "đã thêm {target} vào bộ bài",
+      "gold": "+{amount} vàng",
+      "object": "đã nhận {target}"
+    },
+    "power": {
+      "text": "{target} {message}"
+    },
+    "textAboveCreature": {
+      "text": "{target}: {message}"
+    }
+  },
+  "misc": {
+    "versionString": "Đang dùng Say the Spire phiên bản {version}."
+  },
+  "map": {
+    "names": {
+      "boss": "trùm",
+      "elite monster": "quái tinh anh",
+      "merchant": "Thương gia",
+      "monster": "quái vật",
+      "rest": "nghỉ ngơi",
+      "start location": "vị trí bắt đầu",
+      "treasure": "kho báu",
+      "unknown": "không xác định"
+    },
+    "navigators": {
+      "tree": {
+        "choice": "lựa chọn",
+        "error focus null": "Điểm tập trung bị rỗng (null); báo cho nhà phát triển mod",
+        "no path": "không có đường đi"
+      }
+    },
+    "tags": {
+      "burning icon": "biểu tượng rực cháy",
+      "player location": "vị trí {player}",
+      "requires flight": "yêu cầu khả năng bay"
+    }
+  },
+  "substitutions": {
+    "monster names": {
+      "SlaverBlue": "Kẻ Buôn Nô Lệ Xanh",
+      "SlaverRed": "Kẻ Buôn Nô Lệ Đỏ"
+    }
+  },
+  "text": {
+    "accessibility notes": {
+      "keyboard": "Ghi chú trợ năng: Nhập văn bản bằng bàn phím"
+    },
+    "actions": {
+      "ShowMoveName": "{source}. {text}"
+    },
+    "buffers": {
+      "bufferIsEmpty": "{buffer} trống",
+      "currentItem": "{buffer}: {item}",
+      "currentItemIsNull": "Mục hiện tại của bộ đệm {buffer} bị rỗng (null), báo cho nhà phát triển mod",
+      "noBuffersAvailable": "Không có bộ đệm nào.",
+      "noBufferSelected": "Chưa chọn bộ đệm nào."
+    },
+    "cardRarity": {
+      "basic": "cơ bản",
+      "common": "thường",
+      "uncommon": "không thường",
+      "rare": "hiếm",
+      "special": "đặc biệt",
+      "curse": "nguyền"
+    },
+    "dialogueTypes": {
+      "says": "nói",
+      "shouts": "hét lên"
+    },
+    "npcNames": {
+      "merchant": "Thương gia"
+    },
+    "potionRarity": {
+      "placeholder": "giữ chỗ",
+      "common": "thường",
+      "uncommon": "không thường",
+      "rare": "hiếm"
+    },
+    "powers": {
+      "no powers": "Không có hiệu ứng hiện tại.",
+      "powerLabel": "{power} {amount}",
+      "powerListString": "{powers}, các hiệu ứng"
+    },
+    "relicRarity": {
+      "deprecated": "không dùng nữa",
+      "starter": "khởi đầu",
+      "common": "thường",
+      "uncommon": "không thường",
+      "rare": "hiếm",
+      "special": "đặc biệt",
+      "boss": "trùm",
+      "shop": "cửa hàng"
+    }
+  },
+  "ui": {
+    "elements": {
+      "Card": {
+        "face down": "úp xuống"
+      },
+      "character button": {
+        "buffer gold": "{gold} vàng",
+        "buffer health": "{health} Sinh lực",
+        "buffer max ascension": "{maxAscension} leo tháp tối đa",
+        "buffer unlocks remaining": "còn lại {unlocksRemaining} mở khóa",
+        "unknown unlock": "Văn bản mở khóa không xác định; báo cho nhà phát triển mod."
+      },
+      "CustomMod": {
+        "disabledOther": "{target} đã tắt."
+      },
+      "gremlin match card": {
+        "flipped face down": "{target} đang được úp xuống.",
+        "revealed card": "Thẻ được lật là {target}."
+      },
+      "game stat": {
+        "label": "{name}: {value}"
+      },
+      "monster": {
+        "hidden intent": "ý định ẩn",
+        "shortString": "{monster}, {intent}, giáp {block}, {currentHealth}/{maxHealth}"
+      },
+      "relic": {
+        "counterString": "{counter} bộ đếm"
+      },
+      "shop item": {
+        "priceString": "({price} vàng)",
+        "priceSaleString": "({price} vàng, giảm giá)"
+      },
+      "slider": {
+        "statusString": "{value}%",
+        "unknownType": "Loại thanh trượt không xác định; báo cho nhà phát triển mod."
+      },
+      "toggle button": {
+        "unknownType": "Loại nút chuyển đổi không xác định; báo cho nhà phát triển mod."
+      },
+      "treasure chest": {
+        "types": {
+          "small": "nhỏ",
+          "medium": "trung bình",
+          "large": "lớn",
+          "boss": "trùm",
+          "unknown": "không xác định"
+        }
+      }
+    },
+    "misc info": {
+      "hiddenIntents": "các ý định ẩn",
+      "incomingDamage": "{damage} sát thương sắp tới",
+      "noMonsters": "không có quái vật",
+      "playerBlock": "{block} giáp",
+      "playerEnergy": "{energy} năng lượng",
+      "playerGold": "{gold} vàng",
+      "playerHealth": "{hp}/{hpMax} Sinh lực"
+    },
+    "positions": {
+      "categoryList": "{position} trên {total} {category}",
+      "grid": "{x}, {y}",
+      "list": "{position} trên {total}"
+    },
+    "screens": {
+      "CardLibraryScreen": {
+        "categoryLabel": "bài {category}",
+        "types": {
+          "red": "đỏ",
+          "blue": "xanh dương",
+          "green": "xanh lá",
+          "purple": "tím",
+          "curse": "nguyền",
+          "status": "trạng thái",
+          "unknown": "không xác định"
+        }
+      },
+      "CharacterSelectScreen": {
+        "ascension off": "{label} tắt"
+      },
+      "CustomModeScreen": {
+        "AN_seed": "Ghi chú trợ năng: Mã hạt giống hiện tại là {seed}.",
+        "seedString": "{label} ({seed})"
+      },
+      "dailyScreen": {
+        "characterString": "{label} {name}",
+        "modString": "{name}: {description}",
+        "offlineDateString": "{date} {label}",
+        "scoreDateString": "Đang xem điểm từ {date}",
+        "scoreIndicesString": "Hiển thị thứ hạng {start} đến {end}",
+        "timeRemainingString": "{label} {time}"
+      },
+      "DiscardPileViewScreen": {
+        "title": "Xem chồng bài bỏ, {cards} lá"
+      },
+      "DrawPileViewScreen": {
+        "title": "Xem chồng bài rút, {cards} lá"
+      },
+      "DungeonMapScreen": {
+        "boss scroll": "Bản đồ cuộn từ trên xuống dưới, thoáng lộ ra phác thảo của {boss}."
+      },
+      "ExhaustPileViewScreen": {
+        "title": "Xem chồng bài đốt, {cards} lá"
+      },
+      "LeaderboardScreen": {
+        "character buttons": "nút nhân vật",
+        "region buttons": "nút khu vực",
+        "type buttons": "nút loại"
+      },
+      "MasterDeckViewScreen": {
+        "title": "Xem bộ bài chính, {cards} lá"
+      },
+      "PotionViewScreen": {
+        "categoryLabel": "dược {category}",
+        "types": {
+          "common": "thường",
+          "uncommon": "không thường",
+          "rare": "hiếm",
+          "unknown": "không xác định"
+        }
+      },
+      "RelicViewScreen": {
+        "categoryLabel": "Cổ vật {category}",
+        "types": {
+          "starter": "khởi đầu",
+          "common": "thường",
+          "uncommon": "không thường",
+          "rare": "hiếm",
+          "boss": "trùm",
+          "special": "đặc biệt",
+          "shop": "cửa hàng"
+        }
+      }
+    },
+    "status": {
+      "ascending": "tăng dần",
+      "descending": "giảm dần",
+      "disabled": "đã vô hiệu hóa",
+      "locked": "đã khóa",
+      "off": "tắt",
+      "on": "bật",
+      "selected": "đã chọn",
+      "unlocked": "đã mở khóa",
+      "unselected": "chưa chọn"
+    },
+    "types": {
+      "achievement": "thành tựu",
+      "blight": "tai ương",
+      "button": "nút",
+      "card": "lá bài",
+      "character button": "nút nhân vật",
+      "character stats": "chỉ số nhân vật",
+      "dropdown": "danh sách thả xuống",
+      "monster": "quái vật",
+      "orb": "ngọc",
+      "potion": "dược",
+      "relic": "Cổ vật",
+      "slider": "thanh trượt",
+      "toggle button": "nút chuyển đổi",
+      "treasure chest": "rương kho báu",
+      "unknown": "không xác định"
+    }
+  }
+}
